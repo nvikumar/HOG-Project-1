@@ -35,6 +35,7 @@
         h1 {
             margin-left: 6px;
             margin-top: 0px;
+            margin-bottom: 10px;
             /* margin: 0px;s */
             position: absolute;
             top: 2px;
@@ -53,6 +54,7 @@
         .intro {
             padding: 20px;
             padding-bottom: 0px;
+            /* border:2px solid red; */
         }
 
         .heading2 {
@@ -69,9 +71,10 @@
         .footer {
             position: fixed;
             bottom: 0%;
-            left: 44%;
+            left: 37%;
             display: inline-block;
             margin: auto;
+            /* border: black 2px solid; */
         }
 
         .box {
@@ -92,6 +95,31 @@
             display: inline-block;
             margin-left: 170px;
         }
+
+        .connect {
+            display: inline-block;
+            /* margin-left: 10px; */
+        }
+
+        #conn {
+            display: inline-block;
+            align-items: center;
+            /* padding-top:1px; */
+            /* box-sizing: border-box; */
+        }
+        #proffpic{
+            display: inline-block;
+            position: relative;
+            right:-735px;
+            padding:0px;
+        }
+        #intro1{
+            /* right:-700px; */
+            position: relative;
+            left:0px;
+            display: inline-block;
+            font-size: 35px;
+        }
     </style>
 </head>
 
@@ -106,7 +134,16 @@
         </div>
     </div>
     <div class="intro">
-        <h3>NAVEEN KUMAR GUPTA</h3>
+        <div id="proffpic">
+            <img src="proffpic.png" alt="" width="150px" height="150px">
+        </div>
+        <div id="intro1"><h3>NAVEEN KUMAR GUPTA &nbsp;&nbsp; <a href="https://www.linkedin.com/in/nvikumar/">
+                <img src="Linkdn Logo.png" alt="" width="30px" height="30px" a>
+            </a>&nbsp;&nbsp;
+            <a href="https://github.com/nvikumar">
+                <img src="Ghub.png" alt="" width="32px" height="32px">
+            </a>
+        </h3></div>
         <p>I am Naveen, from Varanasi, UP. Currently pursuing my B.Tech from IIIT Ranchi. My area of interest are Web
             development, CP and Designing. </p>
         <hr>
@@ -198,7 +235,18 @@
     </div>
 
     <div class="footer">
-        <p>&copy; made by Naveen Kumar</p>
+        <div class="connect">
+            <a href="https://www.linkedin.com/in/nvikumar/">
+                <div id="conn">
+                    &copy; made with love ♥ by Naveen Kumar&nbsp;
+                </div>
+            </a>
+            <!-- &nbsp;
+                <img src="Linkdn Logo.png" alt="" width="20px" height="20px" a>
+            <a href="https://github.com/nvikumar">
+                <img src="Ghub.png" alt="" width="20px" height="20px">
+            </a> -->
+        </div>
     </div>
 </body>
 
